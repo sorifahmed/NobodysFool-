@@ -1,0 +1,324 @@
+*{margin:0px; padding:0px; outline:0px;}
+body{font-family:arial; font-size: 14px; line-height: 18px;}
+
+.headertop{
+	background: url(../img/header.png) repeat;
+	padding:20px 0px;
+	 
+}
+.headerleft{
+
+}
+.headerleft{
+
+}
+.social{
+	float:right;
+
+}
+.social i{
+	background: #787878;
+    width: 40px;
+    height: 40px;
+    padding: 11px 11px;
+    border-radius: 50px;
+    margin-right: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+}
+.social i:hover{
+	background: #DB4A39;
+}
+.top-bar-left {
+    float: left;
+    padding-top: 13px;
+}
+.menu > li > a {
+    color: #A6A6A6;
+    font-size: 13px;
+    padding: 0px 8px;
+    border-right: 1px solid #999;
+}
+.menu > li:last-child{
+	border-right: 0px solid #999;
+}
+[data-whatinput='mouse'] .menu > li {
+    outline: 0;
+    cursor: pointer;
+}
+.mainmenu{
+	  border-bottom: 5px solid #ddd;
+}
+.mainmenu ul li {
+   	margin-top:60px;
+   	margin-left: 20px;
+   	padding-bottom: 20px;
+    color: #6A6A6A;
+    border-bottom: 5px solid transparent;
+}
+.mainmenu ul li:first-child {
+    margin-left:0;
+}
+.mainmenu ul li:hover{
+	color: #D3D3D3;
+	border-bottom: 5px solid #0099FF;
+    cursor: pointer;
+}
+
+.menu2 li {
+    margin-bottom: -5px;
+}
+.button{
+    background: #0099FF;
+    padding: 10px 8px;
+}
+.headerbottom{
+	padding:50px 0px;
+    
+}
+.headertext{
+
+}
+.headertext h2{
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+}
+.headertext p{
+	color: #A6A6A6;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.search {
+    margin-top: 20px;
+}
+ input[type='search'] {
+    border-radius: 7px;
+}
+[data-whatinput='mouse'] .button {
+    outline: 0;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.slidersection{
+    background: #ddd;
+    padding: 30px 0px;
+    border-top: 5px solid #CCC;
+
+}
+.slidertext{
+	padding: 101px 0px;
+}
+.slidertext h2{
+    font-size: 36px;
+    color: #444;
+    margin: 0;
+}
+.slidertext p{
+	font-size: 16px;
+    line-height: 31px;
+    color: #666;
+}
+.orbit-bullets button {
+    background-color: #000;
+}
+.orbit {
+    position: relative;
+    width: 474px;
+    height: 400px;
+}
+.orbit-image {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    height: 458px;
+}
+.orbit-container {
+    margin-top: -12px;
+}
+[data-whatinput='mouse'] .orbit-bullets {
+    outline: 0;
+    margin-top: 423px;
+    margin-right: 316px;
+ 
+}
+.contactsection{
+	padding:50px 0px;
+}
+.contactimg{
+
+}
+.contact{
+	text-align: center;
+}
+.contactimg img{
+
+}
+.contacttext{
+
+}
+.contacttext h2{
+    font-size: 16px;
+    padding-top: 15px;
+    color: #0099FF;
+    margin: 0;
+}	
+.contacttext p{
+    font-size: 13px;
+    color: #888;
+}
+.slogsection{
+     background: #ddd;
+    width: 959px;
+    margin: auto;
+     border-left: 5px solid #539FFF;
+    height: 144px;
+}
+.slogtext h2{
+    font-size: 29px;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 27px;
+}
+.slogtext p{
+    font-size: 15px;
+    color: #333;
+    padding-left: 27px;
+}
+.button {
+    background: #519CFE;
+}
+.slogbutton{
+	float: right;
+    margin-top: 39px;
+    margin-right: 30px;
+}
+.slogbutton a {
+      padding: 13px 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #CCC;
+    font-size: 26px;
+}
+.servicessection{
+	background: #1A1A1A;
+	padding: 60px 0px;
+	color: #fff;
+	margin-top: 30px;
+}
+.service{
+
+}
+.sameservice {
+    margin-right: 20px;
+}
+.sameservice img{
+	padding-bottom: 23px;
+}
+.sameservice h2{
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    margin:0px;
+}
+.sameservice h5{
+    font-size: 14px;
+    color: #BBB;
+    font-weight: bold;
+}
+.sameservice p{
+    font-size: 12px;
+    line-height: 23px;
+     color: #BBB;
+}
+.remdmore{
+    font-size: 12px;
+    color: #4F9AFE;
+    float: right;
+}
+.sameservice ul{
+
+}
+.sameservice ul li{
+	color: #0099FF;
+    padding: 5px 0px;
+}
+.address{}
+.address h2{
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    margin: 0px;
+}
+.submit {
+    margin-left: -4px;
+}
+.submit a {
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px 11px;
+}
+input#middle-label {
+  	 background: #282828;
+    border: 1px solid #333;
+    padding: 0px 11px;
+    width: 228px;
+    
+}
+input#middle-label:hover {
+    background: #FFF;
+}
+textarea{
+	background: #282828;
+    border: 1px solid #333;
+    padding: 0px 11px;
+    height: 139px;
+    width: 228px;
+    
+}
+.youraddress {
+    margin-left: -16px;
+}
+.fottersection{
+	background: #222222;
+	padding:20px 0px;
+	color: #fff;
+}
+.fotterleft{
+
+}
+.fotterleft p{
+    font-size: 12px;
+    padding-top: 14px;
+    color: #CCC;
+}
+.fotteright{
+	float: right;
+}
+.fotteright p{
+	font-size: 12px;
+    padding-top: 14px;
+    color: #CCC;
+}
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
